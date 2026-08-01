@@ -4,7 +4,7 @@ export default function HeaderComponent({ year, onViewChange }) {
     return (
         <header className="vjs-fwc-header">
             <div className="vjs-fwc-header-title">
-                FIFI World Cup {year}
+                FIFA World Cup {year}
             </div>
             <nav className="vjs-fwc-header-nav">
                 <button onClick={() => onViewChange('teams')} className="vjs-fwc-header-link">
